@@ -9,9 +9,9 @@ For the source code of the attack presented in [Ebb-and-Flow] on the Gasper cons
 We simulate a snap-and-chat protocol constructed with Sleepy and Streamlet as constituent protocols, in the four scenarios described in [Ebb-and-Flow]:
 
 * Figure 2: Overview in the introduction. Code: `006-simulation-04-overview-01.jl`. Results: `sim-04.dat`, `sim-04-phases.dat`.
-* Figure 8: Dynamic participation. Code: `004-simulation-03-dynamic-participation-01.jl`. Results: `sim-03.dat`.
-* Figure 9: Intermittent network partitions. Code: `003-simulation-01-network-partitions-01.jl`. Results: `sim-01.dat`, `sim-01-phase*.dat`.
-* Figure 10: Convergence after network partition and/or low participation. Code: `005-simulation-02-convergence-01.jl`. Results: `sim-02.dat`, `sim-02-phases.dat`.
+* Figure 9: Dynamic participation. Code: `004-simulation-03-dynamic-participation-01.jl`. Results: `sim-03.dat`.
+* Figure 10: Intermittent network partitions. Code: `003-simulation-01-network-partitions-01.jl`. Results: `sim-01.dat`, `sim-01-phase*.dat`.
+* Figure 11: Convergence after network partition and/or low participation. Code: `005-simulation-02-convergence-01.jl`. Results: `sim-02.dat`, `sim-02-phases.dat`.
 
 The simulation is implemented in the [Julia programming language](https://julialang.org/).
 The simulation code is structured as follows:
